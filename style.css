@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#navbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label{
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 350px;
+    font-size: 40PX;
+}
+input{
+    height: 40px;
+    width: 560px;
+    margin-left: 350px;
+
+}
+button{
+    background-color: #AD2831;
+    color: white;
+    height: 48px;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+#mainbar{
+    height: 250px;
+    background-image: url(backdrop.png);
+    background-size: cover;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+hr{
+    height: 5px;
+    color: white;
+}
+
+
+#gallery{
+    height: 5000px;
+    background-color: rgb(100, 13, 20);
+}
+#row1{
+    height:350px;
+    display: flex;
+    justify-content: space-around;
+}
+.inspo{
+    height: 280px;
+    width: 180px;
+    background-color: white;
+    display: inline;
+    padding: 15px;
+    border-radius: 30px;
+    border:10px double #250902;
+    margin-bottom: 100px;
+}
+.inspo:hover{
+    transform: scale(1.25);
+}
+a{
+    text-decoration: none;
+    color: #250900;
+}
+.mini{
+    height:190px ;
+    background-color: #250902;
+    border-radius:40px ;
+
+}
+#box1{
+    background-image: url(box1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box2{
+    background-image: url(box2.avif);
+    background-size: cover;
+    background-position: center;
+}
+#box3{
+    background-image: url(box3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box4{
+    background-image: url(box4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#box5{
+    background-image: url(box5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mini2{
+    text-align: center;
+    color: #250902;
+}
+p{
+    font-size: 10px;
+    color: #250900;
+    text-align: center;
+}
+#row2{
+    height: 400px;
+    width: 1350px;
+    background-color: #250900;
+    padding: 0;
+    margin: 0;
+    border-top: dashed 15px;
+    border-bottom: dashed 10px;
+ 
+
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    font-size: 45px;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight:100;
+    margin-top: 15px;
+}
+.collage{
+    height: 190px;
+    width: 186.59px;
+    background-color: aliceblue;
+    display: inline-block;
+    
+    
+}
+#frame1{
+    background-image: url(i1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#frame2{
+    background-image: url(i2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#frame3{
+    background-image: url(i3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#frame4{
+    background-image: url(i4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#frame5{
+    background-image: url(i5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#frame6{
+    background-image: url(i6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#frame7{
+    background-image: url(i7.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#frame8{
+    background-image: url(i8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#frame9{
+    background-image: url(i9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#frame10{
+    background-image: url(i10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#frame11{
+    background-image: url(i11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#frame12{
+    background-image: url(i12.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#frame13{
+    background-image: url(i13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#frame14{
+    background-image: url(i14.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.block{
+    height: 300px;
+    width: 550px;
+    background-color: azure;
+    display: inline-block;
+    margin: 30px;
+    margin-left: 50px;
+    border: white 10px solid;
+}
+#img1{
+    background-image: url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#img2{
+    padding-top: 50px;
+    background-image: url(img2.webp);
+    background-size: cover;
+    background-position: center;
+}
+#img3{
+    height: 310px;
+    padding-top: 80px;
+    background-image: url(img3.webp);
+    background-size: cover;
+    background-position: center;
+}
+#img4{
+    
+
+    margin-top: 20px;
+    background-image: url(img4.webp);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 120px;
+}
+#row4{
+    height: 300px;
+    width: 1350px;
+    background-color: white;
+}
+
+.skech{
+    height:200px;
+    width:200px;
+    
+    display: inline-block;
+    margin: 20px;
+    border: black 10px solid;
+
+}
+#skech1{
+    margin-left: 35px;
+    background-image: url(skech1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#skech2{
+    background-image: url(skech2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#skech3{
+    background-image: url(skech3.webp);
+    background-size: cover;
+    background-position: center;
+}
+#skech4{
+    background-image: url(skech4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#skech5{
+    background-image: url(skech5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#heading{
+    background-color: #38040E;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+
+}
+#skech6{
+    margin-left: 35px;
+    background-image: url(skech6.webp);
+    background-size: cover;
+    background-position: center;
+}
+#skech7{
+    background-image: url(skech7.webp);
+    background-size: cover;
+    background-position: center;
+}
+#skech8{
+    background-image: url(skech8.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#skech9{
+    background-image: url(skech9.webp);
+    background-size: cover;
+    background-position: center;
+}
+#skech10{
+    background-image: url(skech10.avif);
+    background-size: cover;
+    background-position: center;
+}
+#skech11{
+    margin-left: 35px;
+    background-image: url(skech11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#skech12{
+    background-image: url(skech12.webp);
+    background-size: cover;
+    background-position: center;
+}
+#skech13{
+    background-image: url(skech13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#skech14{
+    background-image: url(skech14.webp);
+    background-size: cover;
+    background-position: center;
+}
+#skech15{
+    background-image: url(skech15.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+iframe{
+    height: 300px;
+    width: 550px;
+    display: inline-block;
+    border: 10px white solid;
+    margin-left: 70px;
+}
